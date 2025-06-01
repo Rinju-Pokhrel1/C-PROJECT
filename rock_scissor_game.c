@@ -14,14 +14,14 @@ char getComputersChoice() {
 
   switch(randomNumber) {
     case 1:
-      computersChoice = 'r';
-      break;
+      return 'r';
+      
     case 2:
-      computersChoice = 'p';
-      break;
+      return 'p';
+      
     case 3:
-      computersChoice = 's';
-      break;
+      return 's';
+      
   }
 
   return computersChoice;
