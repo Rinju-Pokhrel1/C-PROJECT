@@ -76,18 +76,18 @@ int main() {
   // print result
   switch(result) {
     case 'w':
-      printf("Computer's pick: %c\n", computerPick);
-      printf("Your pick: %c\n", userPick);
+      printf(" %c\n", computerPick);
+      printf("%c\n", userPick);
       printf("You won");
       break;
     case 'l':
-      printf("Computer's pick: %c\n", computerPick);
-      printf("Your pick: %c\n", userPick);
+      printf(" %c\n", computerPick);
+      printf(" %c\n", userPick);
       printf("You lose");
       break;
     case 'd':
-      printf("Computer's pick: %c\n", computerPick);
-      printf("Your pick: %c\n", userPick);
+      printf(" %c\n", computerPick);
+      printf("%c\n", userPick);
       printf("Draw");
       break;
   }
